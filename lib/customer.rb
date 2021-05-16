@@ -8,6 +8,7 @@ class Customer
     @name = name
     @age = age
     @@all << self
+    new_meal
   end
 
   def self.all
