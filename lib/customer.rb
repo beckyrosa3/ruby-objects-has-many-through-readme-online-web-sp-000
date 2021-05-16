@@ -8,7 +8,6 @@ class Customer
     @name = name
     @age = age
     @@all << self
-    new_meal(waiter, total, tip=0)
   end
 
   def self.all
