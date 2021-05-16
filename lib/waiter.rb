@@ -1,4 +1,4 @@
-class Waiter
+cclass Waiter
 
   attr_accessor :name, :yrs_experience
 
